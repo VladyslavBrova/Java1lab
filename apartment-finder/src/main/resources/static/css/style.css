@@ -1,0 +1,65 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.card-header {
+    background-color: #f1f5f9;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.btn-primary {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+.btn-success {
+    background-color: #20c997;
+    border-color: #20c997;
+}
+
+.btn {
+    margin: 2px;
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+.table th {
+    background-color: #f1f5f9;
+}
+
+footer {
+    border-top: 1px solid #e9ecef;
+}
+
+.alert {
+    border-radius: 10px;
+}
+
+/* Стилі для карток квартир */
+.apartment-card {
+    transition: transform 0.3s ease;
+}
+
+.apartment-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Покращення мобільної версії */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    .btn {
+        margin-bottom: 5px;
+    }
+}
